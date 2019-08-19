@@ -21,7 +21,7 @@ namespace XamarinExperienceTravelApp
 
             if (isEmailEmpty || isPasswordEmpty)
             {
-                
+                DisplayAlert("Error", "Please enter email and password.", "OK");
             }
             else
             {
